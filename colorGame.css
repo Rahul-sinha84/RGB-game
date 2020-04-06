@@ -1,0 +1,71 @@
+
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Baloo 2', cursive;
+}
+h1{
+	color: white;
+	text-align: center;
+	margin: 0;
+	background: steelblue;
+	text-transform: uppercase;	
+}
+h2{
+	color: white;
+	margin: 0;
+	background: steelblue;
+	text-align: center;
+	text-transform: uppercase;
+}
+span{
+	font-size: 300%;
+	color: white;
+	margin: 0;
+	background: steelblue;
+	text-transform: uppercase;
+	
+}
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: all,0.5s;
+	border-radius: 15%;
+}
+.container{
+	margin: 50px auto;
+	max-width: 600px;
+	
+}
+.navbar{
+	height: 30px;
+	background: white;
+	text-align: center;
+	margin: 0;
+}
+.selected{
+	background: steelblue;
+	color:white;
+}
+button{
+	border: none;
+	background: none;
+	font-family: 'Baloo 2', cursive;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-weight: bold;
+	height: 100%;
+	color: steelblue;
+	transition: all,0.3s;
+	outline: none;
+}
+button:hover{
+	background-color: steelblue;
+	color: white;
+}
+em{
+	display: inline-block;
+	width: 20%;
+}
